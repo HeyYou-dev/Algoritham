@@ -21,7 +21,7 @@ def PrimeNumberExp(n):
     hashmap={}
     for i in FindPrimeNumber(n):
         j=1
-        while (20>i**j):
+        while (n>i**j):
             j=j+1    
         if i not in hashmap:
             hashmap[i]=j-1
